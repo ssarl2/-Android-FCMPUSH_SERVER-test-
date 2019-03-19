@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         tvv1.setText(userCount);
         tvv2.setText(validTime);
-        tvv3.setText("{\"userCount\":\"" + userCount + "\",\"validTime\":\"" + validTime + "\"}");
+        //tvv3.setText("{\"userCount\":\"" + userCount + "\",\"validTime\":\"" + validTime + "\"}");
         (new Thread(this)).start();
     }
 
