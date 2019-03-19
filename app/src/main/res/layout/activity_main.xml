@@ -60,7 +60,7 @@
                 android:id="@+id/et1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:enabled="true"
+                android:enabled="false"
                 android:hint="userCount"
                 android:inputType="number" />
 
